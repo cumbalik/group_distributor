@@ -2,6 +2,8 @@
     "recommendations": [
         "charliermarsh.ruff",
         "ms-python.mypy-type-checker",
-        "njpwerner.autodocstring"
+        "njpwerner.autodocstring",
+        "github.vscode-github-actions",
+        "ms-python.python"
     ]
 }
