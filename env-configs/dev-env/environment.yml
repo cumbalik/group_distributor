@@ -1,0 +1,5 @@
+name: group_dist_dev-env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
