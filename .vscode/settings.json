@@ -1,0 +1,28 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "charliemarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "ruff.organizeImports": true,
+    "ruff.lint.args": [
+        "--fix",
+        "--extend-select",
+        "I",
+        "--fixable",
+        "I"
+    ],
+    "ruff.format.args": [
+        "--line-length",
+        "120"
+    ],
+    "mypy-type-checker.args": [
+        "--ignore-missing-imports"
+    ],
+    "autoDocstring.docstringFormat": "google",
+    "files.exclude": {
+        "**/.git": false
+    }
+}
