@@ -12,3 +12,9 @@ pip install -r ./env-configs/dev-env/requirements.txt
 ```
 
 3. If VS Code is used as an IDE, then type in the extension market place `@recommended` to install extensions.
+
+4. Start the application:
+```
+streamlit run src/frontend/main.py
+```
+It should automatically open a web-browser. Now, you can interactively add a sample and obtain an appropriate group.
